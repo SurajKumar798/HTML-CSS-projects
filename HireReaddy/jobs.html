@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">HireReady</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="jobs.html">Jobs</a>
+                <a href="company.html">Companies</a>
+                <a href="auth.html" class="btn btn-outline">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="jobs-page container">
+        <aside class="filter-card">
+          <h3>Filter Jobs</h3>
+          <div class="filter-group">
+            <h4>Location</h4>
+            <label>
+                <input type="checkbox" />
+                 Remote 
+            </label>
+            <label>
+                <input type="checkbox" />
+                 Bangalore 
+            </label>
+             <label>
+                <input type="checkbox" />
+                 Delhi 
+            </label>
+          </div>
+          <div class="filter-group">
+            <h4>Job Type</h4>
+            <label>
+                <input type="checkbox" />
+                 Full Time 
+            </label>
+            <label>
+                <input type="checkbox" />
+                 Internship 
+            </label>
+          </div>
+          <div class="filter-group">
+            <h4>Experience</h4>
+            <label>
+                <input type="radio" name="exp" />
+                 0-1 years
+            </label>
+            <label>
+                <input type="radio" name="exp" />
+                 2-4 years
+            </label>
+            <label>
+                <input type="radio" name="exp" />
+                 5+ years
+            </label>
+          </div>
+        </aside>
+        <main class="job-grid">
+           <div class="card job-card">
+             <h3>Frontend Developer</h3>
+             <p class="company-name">Google . Bangalore</p>
+             <p class="salary">₹10–15 LPA</p>
+             <div class="tags">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">JavaScript</span>
+             </div>
+             <a href="./job-detail.html" class="btn btn-primary">View Details</a>
+           </div>
+           <div class="card job-card">
+             <h3>Backend Developer</h3>
+             <p class="company-name">Amazon . Remote</p>
+             <p class="salary">₹12–18 LPA</p>
+             <div class="tags">
+                <span class="badge">Java</span>
+                <span class="badge">Spring</span>
+                <span class="badge">MySQL</span>
+             </div>
+             <a href="./job-detail.html" class="btn btn-primary">View Details</a>
+           </div>
+           <div class="card job-card">
+             <h3>Data Analyst</h3>
+             <p class="company-name">Flipkart . Bangalore</p>
+             <p class="salary">₹8–12 LPA</p>
+             <div class="tags">
+                <span class="badge">SQL</span>
+                <span class="badge">Excel</span>
+                <span class="badge">Python</span>
+             </div>
+             <a href="./job-detail.html" class="btn btn-primary">View Details</a>
+           </div>
+        </main>
+    </section>
+
+    <section class="pagination container">
+        <a href="#" class="btn btn-outline">Prev</a>
+        <span>Page 1 of 5</span>
+        <a href="#" class="btn btn-outline">Next</a>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p>© 2026 HireReady. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
